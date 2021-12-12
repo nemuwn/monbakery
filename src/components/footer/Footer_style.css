@@ -1,5 +1,5 @@
 .footer {
-  background: rgb(57, 57, 80);
+  background: #393950;
   color: rgb(216, 216, 216);
 
   margin: auto;
@@ -8,6 +8,8 @@
 
 .footer_content {
   display: flex;
+  background: #393950;
+  color: rgb(216, 216, 216);
   justify-content: center;
   padding-top: 2rem;
   padding-bottom: 1rem;
