@@ -1,0 +1,51 @@
+@import url(../../../root.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin: auto;
+  max-width: 100%;
+  position: sticky;
+  top: 0;
+  border-bottom: 2px solid gainsboro;
+  z-index: 100;
+
+}
+.navbar_logo img {
+  width: 15rem;
+  height: 5rem;
+  margin-left: 1rem;
+}
+.navbar_login {
+  display: flex;
+}
+.navbar_login_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+  transition: 0.5s ease all;
+}
+
+.navbar_login_item h3 {
+  /* color: var(--primary-color); */
+  margin-right: 1rem;
+}
+.navbar_login_item i {
+  /* color: var(--primary-color); */
+  margin-top: 0.25rem;
+}
+.navbar_login_item:hover {
+  color: #fff;
+  background: var(--primary-color);
+}

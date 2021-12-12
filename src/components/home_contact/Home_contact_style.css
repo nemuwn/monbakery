@@ -1,0 +1,31 @@
+@import url(../../root.css);
+.home_contact {
+  display: flex;
+  justify-content: center;
+ 
+  margin-bottom: 5rem;
+  padding-top: 4rem;
+  border-top: 1px solid var(--primary-color);
+}
+.home_contact_item {
+  display: grid;
+  justify-items: center;
+  margin: 1rem;
+  color: var(--primary-color);
+}
+
+.home_contact_item p {
+  font-size: 0.9rem;
+  color: rgb(134, 134, 134);
+}
+.home_contact_item i {
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 1rem;
+  transition: 0.5s ease all;
+}
+.home_contact_item i:hover {
+  color: #fff;
+  background: var(--primary-color);
+}

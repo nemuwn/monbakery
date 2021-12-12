@@ -1,0 +1,9 @@
+:root {
+  --primary-color: rgb(102, 64, 64);
+  --gray: #fff;
+}
+
+::selection {
+  background-color: #764c24;
+  color: #fff;
+}
