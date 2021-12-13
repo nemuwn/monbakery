@@ -49,7 +49,7 @@ export default function Modal({ open, children, onClose }) {
    
       <div style={OVERLAY_STYLES}  ref={modalRef}>
       
-        <div style={MODAL_STYLES}><animated.div style={animation} >
+        <div style={MODAL_STYLES}><animated.div  >
           
         
       
