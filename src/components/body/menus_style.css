@@ -1,0 +1,33 @@
+@import url(../../root.css);
+.menus {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  position: sticky;
+  padding: 1rem;
+  background: #fff;
+  top: 86px;
+  border-bottom: 2px solid gainsboro;
+  transition: all 1s ease;
+  z-index: 100;
+}
+
+.menus_btn {
+  list-style: none;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+  padding: 0.4rem 1rem;
+  align-items: center;
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+.menus_btn span {
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+.menus_btn:hover {
+  background: var(--primary-color);
+  color: #fff;
+}

@@ -1,0 +1,232 @@
+.sale_p h1, h2, h3, h4, h5, h6{
+    color: #000;
+    color: inherit;
+}
+
+.sale_p h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0em;
+}
+
+.sale_p h4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0em;
+}
+
+.sale_p h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0em;
+}
+
+.title_p a{
+	font-size: 36px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+
+.sale_p p {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.sale_p {
+    color: var(--primary-color);
+    font-family: "Open Sans", sans-serif;;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    letter-spacing: 0em;
+    text-rendering: optimizeLegibility;
+    
+}
+
+div {
+    display: block;
+}
+.sale_p ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+
+
+/*--------------TITLE ----------- */
+.sale_p {
+	position: relative; right: auto; 
+	padding-left: 53px; 
+	padding-right: 53px;
+    background-image: url(https://porus.g5plus.net/wp-content/uploads/2019/08/bg-this-week-offers.jpg?id=1437)!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+
+.space1 {
+    height: 55px;
+}
+
+.space2{
+    height: 35px;
+}
+
+.space3{
+    height: 100px;
+}
+
+.sl_heading{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 550px;
+    text-align: center!important;
+}
+
+.sl_heading_title {
+    margin-bottom: 0;
+    font-weight: bold;
+    margin-top: 0!important;
+    margin-bottom: 0.7em;
+}
+
+.sl_heading_separate {
+    background: url("../../img/icon/heading-separate.png");
+    height: 12px;
+    width: 80px;
+    margin-bottom: 0;
+    margin-top: -15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sl_heading_desc{
+    color: #764c24;
+}
+
+
+/*--------------sale  ----------- */
+
+.sale_product{
+   
+    position: relative;
+    margin: auto;
+    max-width: 1000px;
+    text-align: center!important;
+}
+
+figure.prod-1{
+    text-align: right;
+    
+}
+
+div.content-box {
+    width: 50%;
+    float: left;
+    padding-right: 0;
+    padding-left: 4.5%;
+}
+
+.content-box{
+    text-align: left;
+    padding-left: 4.5%;
+  	padding-right: 18.65%; 
+      line-height: 1.5;
+}
+
+.content-box a{
+    text-decoration: none;
+}
+.description_desc{
+	font-size: 16px;
+    margin-bottom: 30px;
+	color: #636363;
+}
+
+.price_desc{
+	margin-bottom: 43px;
+}
+
+.price_desc ins{
+	color: var(--primary-color);
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.price_desc del{
+	color: #636363;
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: line-through;
+}
+
+
+
+/*-----BUTTON------*/
+
+.sale_p .btn{
+	position: relative;
+    display: inline-block;
+    border: solid 2px transparent;
+    white-space: nowrap;
+    vertical-align: middle;
+	transition: all .5s ease;
+}
+
+.btn.btn-secondary.btn-outline{
+	border-color: var(--primary-color);
+}
+
+
+.btn.btn-round {
+    border-radius: 5em;
+}
+
+.btn.btn-lg {
+    font-size: 16px;
+    line-height: 58px;
+    padding: 0 55px;
+	text-transform: uppercase;	
+	text-align: center;
+    color: #000000;
+}
+
+.btn:focus {
+    outline: none;
+	box-shadow: none;
+}
+.input-group-btn:focus{
+	outline: none;
+	box-shadow: none;
+}
+
+.btn.btn-secondary.btn-outline:focus, .btn.btn-secondary.btn-outline:hover, .btn.btn-secondary.btn-outline:active {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+   
+}
+
+

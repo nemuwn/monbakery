@@ -1,0 +1,45 @@
+@import url(../../root.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../../img/background/background5.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  max-width: 1500px;
+}
+.images img {
+  width: 35rem;
+}
+.text {
+  margin-bottom: 3rem;
+}
+.text h3 {
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+.showcase_btn {
+  width: 100%;
+  background: none;
+  border: 1px solid var(--primary-color);
+  border-radius: 1rem;
+  font-size: 1rem;
+  /* font-weight: bold; */
+  padding: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: 0.5s ease all;
+}
+.showcase_btn:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
