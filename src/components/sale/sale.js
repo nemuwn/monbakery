@@ -1,9 +1,10 @@
 import React from 'react';
 import './sale_style.css';
 
+
 function Sale() {
     return (
-        <div class="sale_p">
+        <div class="sale_p ">
    
           <div class="space1"></div>
           

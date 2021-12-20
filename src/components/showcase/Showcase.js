@@ -58,10 +58,10 @@ if(!Array.isArray(slides) || slides.length <= 0){
            <ChevronRightRoundedIcon className='btn-sh right-arrow' onClick={nextSlide} sx={{ fontSize: 50 }}/>
        {ShowcaseDatas.map((slide, index) => {
            return(
-               <div className="showc">
-                    <div className="shDesc">
-
-                        <div className={index === current ? 'slide active ' : 'slide'} key={index}>
+               <div className="showc " > 
+                    <div className="shDesc ">
+                        
+                        <div className={index === current ? 'slide active ' : 'slide' } key={index}>
                         {index === current && (<p >Онцгойлох  Бүтээгдэхүүн</p>)}
                         </div>
 

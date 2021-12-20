@@ -4,10 +4,11 @@ import './location_style.css';
 function Location() {
     return (
     <div className="loc-page">
+      <h1>Салбаруудын байршил</h1>
     <div className="location">
      <div className="space1_1"></div>
        <section className="col-lg-12 clearfix">
-         <h1>Салбаруудын байршил</h1>
+        
           <div className="location-finder">
              <div className="list_container">
                 <article rel="1">
@@ -67,7 +68,7 @@ function Location() {
                       <p></p>
                       <p>1-р хорооолол, Цамбагарав</p>
                       <p></p>
-                      <span className="sched">Цагийн хуваарь: 09:00 - 22:00<br/>Утас: </span>
+                      <span className="sched">Цагийн хуваарь: 09:00 - 22:00<br/>Утас: 99770643</span>
                    </div>
                 </article>
                 <article rel="6">
@@ -79,7 +80,7 @@ function Location() {
                       <p></p>
                       <p>3,4-р хороолол, Өргөө-1 кино театрын зүүн талд</p>
                       <p></p>
-                      <span className="sched">Цагийн хуваарь: 09:00 - 22:00<br/>Утас: </span>
+                      <span className="sched">Цагийн хуваарь: 09:00 - 22:00<br/>Утас: 99770643</span>
                    </div>
                 </article>
                 <article rel="7">
@@ -91,7 +92,7 @@ function Location() {
                       <p></p>
                       <p>ХУД, Ривер Гарден хороолол, Номин супермаркет дотор</p>
                       <p></p>
-                      <span className="sched">Цагийн хуваарь: 09:00 - 22:00<br/>Утас: </span>
+                      <span className="sched">Цагийн хуваарь: 09:00 - 22:00<br/>Утас: 99770643 </span>
                    </div>
                 </article>
                 <article rel="8">
@@ -103,7 +104,7 @@ function Location() {
                       <p></p>
                       <p>ХУД, Зайсан-Оргил худалдааны төвд</p>
                       <p></p>
-                      <span className="sched">Цагийн хуваарь: 09:00 - 22:00<br/>Утас: </span>
+                      <span className="sched">Цагийн хуваарь: 09:00 - 22:00<br/>Утас: 99770643 </span>
                    </div>
                 </article>
                 <article rel="9">
@@ -115,7 +116,7 @@ function Location() {
                       <p></p>
                       <p>ХУД, Энканто таун Оргил худалдааны төв</p>
                       <p></p>
-                      <span className="sched">Цагийн хуваарь: 09:00 - 20:00<br/>Утас: </span>
+                      <span className="sched">Цагийн хуваарь: 09:00 - 20:00<br/>Утас: 99770643 </span>
                    </div>
                 </article>
                 <article rel="10">
@@ -127,7 +128,7 @@ function Location() {
                       <p></p>
                       <p>Нарны зам дагуу Замын цагдаагаас зүүн тийш</p>
                       <p></p>
-                      <span className="sched">Цагийн хуваарь: 09:00 - 22:00<br/>Утас: </span>
+                      <span className="sched">Цагийн хуваарь: 09:00 - 22:00<br/>Утас: 99770643</span>
                    </div>
                 </article>
                 <article rel="11">
@@ -139,7 +140,7 @@ function Location() {
                       <p></p>
                       <p>БГД, Богд-Ар хороолол</p>
                       <p></p>
-                      <span className="sched">Цагийн хуваарь: 09:00 - 23:00<br/>Утас: </span>
+                      <span className="sched">Цагийн хуваарь: 09:00 - 23:00<br/>Утас: 99770643 </span>
                    </div>
                 </article>
                 <article rel="12">
@@ -151,7 +152,7 @@ function Location() {
                       <p></p>
                       <p>1-р хороолол, Цамбагарав</p>
                       <p></p>
-                      <span className="sched">Цагийн хуваарь: 09:00 - 22:00<br/>Утас: </span>
+                      <span className="sched">Цагийн хуваарь: 09:00 - 22:00<br/>Утас: 99770643</span>
                    </div>
                 </article>
                 <article rel="13">
@@ -161,7 +162,7 @@ function Location() {
                    <div className="loc_desc">
                       <h3>Монбейкери нэрийн тасаг - Emart Хан-Уул</h3>
                       <p>ХУД, Зайсан И-март дэлгүүр дотор</p>
-                      <span className="sched">Цагийн хуваарь: 09:00-22:00<br/>Утас: </span>
+                      <span className="sched">Цагийн хуваарь: 09:00-22:00<br/>Утас: 99770643 </span>
                    </div>
                 </article>
                 <article rel="14">
@@ -171,7 +172,7 @@ function Location() {
                    <div className="loc_desc">
                       <h3>Монбейкери нэрийн тасаг - УИД</h3>
                       <p>УИД, 1 давхар, Номин супермаркет</p>
-                      <span className="sched">Цагийн хуваарь: 09:00-22:00<br/>Утас: </span>
+                      <span className="sched">Цагийн хуваарь: 09:00-22:00<br/>Утас: 99770643</span>
                    </div>
                 </article>
              </div>
